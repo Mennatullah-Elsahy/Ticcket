@@ -30,9 +30,6 @@ namespace Ticcket
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Help));
-            this.bTnDesign4 = new Ticcket.Resources.BTnDesign();
-            this.bTnDesign3 = new Ticcket.Resources.BTnDesign();
-            this.bTnDesign2 = new Ticcket.Resources.BTnDesign();
             this.bTnDesign5 = new Ticcket.Resources.BTnDesign();
             this.panel4 = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -44,70 +41,6 @@ namespace Ticcket
             this.panel3 = new System.Windows.Forms.Panel();
             this.OldPass = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // bTnDesign4
-            // 
-            this.bTnDesign4.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.bTnDesign4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bTnDesign4.BackgroundImage")));
-            this.bTnDesign4.BorderColor = System.Drawing.Color.White;
-            this.bTnDesign4.BorderRadius = 40;
-            this.bTnDesign4.BorderSize = 3;
-            this.bTnDesign4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bTnDesign4.FlatAppearance.BorderSize = 2;
-            this.bTnDesign4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Navy;
-            this.bTnDesign4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.bTnDesign4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bTnDesign4.Font = new System.Drawing.Font("Montserrat", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bTnDesign4.ForeColor = System.Drawing.Color.White;
-            this.bTnDesign4.Location = new System.Drawing.Point(418, 211);
-            this.bTnDesign4.Name = "bTnDesign4";
-            this.bTnDesign4.Size = new System.Drawing.Size(65, 55);
-            this.bTnDesign4.TabIndex = 205;
-            this.bTnDesign4.Text = "?";
-            this.bTnDesign4.TextColor = System.Drawing.Color.White;
-            this.bTnDesign4.UseVisualStyleBackColor = false;
-            // 
-            // bTnDesign3
-            // 
-            this.bTnDesign3.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.bTnDesign3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bTnDesign3.BackgroundImage")));
-            this.bTnDesign3.BorderColor = System.Drawing.Color.White;
-            this.bTnDesign3.BorderRadius = 22;
-            this.bTnDesign3.BorderSize = 2;
-            this.bTnDesign3.FlatAppearance.BorderSize = 3;
-            this.bTnDesign3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bTnDesign3.Font = new System.Drawing.Font("Hacen Liner XL", 18F);
-            this.bTnDesign3.ForeColor = System.Drawing.Color.White;
-            this.bTnDesign3.Location = new System.Drawing.Point(509, 192);
-            this.bTnDesign3.Name = "bTnDesign3";
-            this.bTnDesign3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bTnDesign3.Size = new System.Drawing.Size(219, 55);
-            this.bTnDesign3.TabIndex = 204;
-            this.bTnDesign3.Text = "  GET STARTED";
-            this.bTnDesign3.TextColor = System.Drawing.Color.White;
-            this.bTnDesign3.UseVisualStyleBackColor = false;
-            // 
-            // bTnDesign2
-            // 
-            this.bTnDesign2.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.bTnDesign2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bTnDesign2.BackgroundImage")));
-            this.bTnDesign2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bTnDesign2.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.bTnDesign2.BorderRadius = 17;
-            this.bTnDesign2.BorderSize = 0;
-            this.bTnDesign2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bTnDesign2.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
-            this.bTnDesign2.FlatAppearance.BorderSize = 4;
-            this.bTnDesign2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bTnDesign2.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Bold);
-            this.bTnDesign2.ForeColor = System.Drawing.Color.Black;
-            this.bTnDesign2.Location = new System.Drawing.Point(519, 112);
-            this.bTnDesign2.Name = "bTnDesign2";
-            this.bTnDesign2.Size = new System.Drawing.Size(187, 40);
-            this.bTnDesign2.TabIndex = 158;
-            this.bTnDesign2.Text = "Create new account";
-            this.bTnDesign2.TextColor = System.Drawing.Color.Black;
-            this.bTnDesign2.UseVisualStyleBackColor = false;
             // 
             // bTnDesign5
             // 
@@ -245,9 +178,7 @@ namespace Ticcket
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.OldPass);
-            this.Controls.Add(this.bTnDesign4);
-            this.Controls.Add(this.bTnDesign3);
-            this.Controls.Add(this.bTnDesign2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Help";
             this.Text = "Help";
             this.ResumeLayout(false);
@@ -256,9 +187,6 @@ namespace Ticcket
         }
 
         #endregion
-        private Resources.BTnDesign bTnDesign2;
-        private Resources.BTnDesign bTnDesign3;
-        private Resources.BTnDesign bTnDesign4;
         private Resources.BTnDesign bTnDesign5;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.TextBox textBox2;

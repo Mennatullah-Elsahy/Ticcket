@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Threading.Tasks;
 
 namespace Ticcket
 {
@@ -30,6 +31,37 @@ namespace Ticcket
         {
 
            
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void bTnDesign4_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OpenFileDialog openFileDialog = new OpenFileDialog();
+                openFileDialog.Title = "icon";
+                openFileDialog.Filter = "icon(*.png;*.jpeg;*.Gif;)|*.png;*.jpeg;*.Gif;";
+                openFileDialog.ShowDialog();
+                pictureBox1.Image = new Bitmap(openFileDialog.FileName);
+            }
+            catch
+            {
+                Picture.Text = "❗️ Please Select another photo";
+            }
+        }
+
+        private void oragniser_account_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

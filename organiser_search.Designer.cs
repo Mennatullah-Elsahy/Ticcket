@@ -34,7 +34,6 @@ namespace Ticcket
             this.textSearch = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.bTnDesign2 = new Ticcket.Resources.BTnDesign();
-            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // bTnDesign1
@@ -114,22 +113,11 @@ namespace Ticcket
             this.bTnDesign2.UseVisualStyleBackColor = false;
             this.bTnDesign2.Click += new System.EventHandler(this.bTnDesign2_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(87, 92);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 24);
-            this.label2.TabIndex = 42;
-            this.label2.Text = "Downloads";
-            // 
             // organiser_search
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.textSearch);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bTnDesign2);
@@ -146,6 +134,5 @@ namespace Ticcket
         private System.Windows.Forms.TextBox textSearch;
         private System.Windows.Forms.Label label1;
         private Resources.BTnDesign bTnDesign2;
-        private System.Windows.Forms.Label label2;
     }
 }

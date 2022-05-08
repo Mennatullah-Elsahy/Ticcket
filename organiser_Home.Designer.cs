@@ -73,7 +73,7 @@ namespace Ticcket
             this.label6.Font = new System.Drawing.Font("Montserrat", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Image = ((System.Drawing.Image)(resources.GetObject("label6.Image")));
-            this.label6.Location = new System.Drawing.Point(552, 240);
+            this.label6.Location = new System.Drawing.Point(573, 240);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(47, 43);
             this.label6.TabIndex = 36;
@@ -87,7 +87,7 @@ namespace Ticcket
             this.label5.Font = new System.Drawing.Font("Montserrat", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Image = ((System.Drawing.Image)(resources.GetObject("label5.Image")));
-            this.label5.Location = new System.Drawing.Point(556, 123);
+            this.label5.Location = new System.Drawing.Point(577, 123);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 43);
             this.label5.TabIndex = 35;
@@ -101,7 +101,7 @@ namespace Ticcket
             this.label4.Font = new System.Drawing.Font("Montserrat", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Image = ((System.Drawing.Image)(resources.GetObject("label4.Image")));
-            this.label4.Location = new System.Drawing.Point(246, 239);
+            this.label4.Location = new System.Drawing.Point(267, 239);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(47, 43);
             this.label4.TabIndex = 34;
@@ -116,7 +116,7 @@ namespace Ticcket
             this.label2.Font = new System.Drawing.Font("Montserrat", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
-            this.label2.Location = new System.Drawing.Point(246, 124);
+            this.label2.Location = new System.Drawing.Point(267, 124);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 43);
             this.label2.TabIndex = 33;
@@ -134,7 +134,7 @@ namespace Ticcket
             this.bTnDesign4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bTnDesign4.Font = new System.Drawing.Font("Urdu Typesetting", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bTnDesign4.ForeColor = System.Drawing.Color.White;
-            this.bTnDesign4.Location = new System.Drawing.Point(3, 65);
+            this.bTnDesign4.Location = new System.Drawing.Point(24, 65);
             this.bTnDesign4.Name = "bTnDesign4";
             this.bTnDesign4.Size = new System.Drawing.Size(300, 110);
             this.bTnDesign4.TabIndex = 32;
@@ -154,7 +154,7 @@ namespace Ticcket
             this.bTnDesign10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bTnDesign10.Font = new System.Drawing.Font("Urdu Typesetting", 18F);
             this.bTnDesign10.ForeColor = System.Drawing.Color.White;
-            this.bTnDesign10.Location = new System.Drawing.Point(310, 181);
+            this.bTnDesign10.Location = new System.Drawing.Point(334, 181);
             this.bTnDesign10.Name = "bTnDesign10";
             this.bTnDesign10.Size = new System.Drawing.Size(300, 110);
             this.bTnDesign10.TabIndex = 31;
@@ -174,7 +174,7 @@ namespace Ticcket
             this.bTnDesign8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bTnDesign8.Font = new System.Drawing.Font("Urdu Typesetting", 18F);
             this.bTnDesign8.ForeColor = System.Drawing.Color.White;
-            this.bTnDesign8.Location = new System.Drawing.Point(3, 181);
+            this.bTnDesign8.Location = new System.Drawing.Point(24, 181);
             this.bTnDesign8.Name = "bTnDesign8";
             this.bTnDesign8.Size = new System.Drawing.Size(300, 110);
             this.bTnDesign8.TabIndex = 30;
@@ -194,7 +194,7 @@ namespace Ticcket
             this.bTnDesign6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bTnDesign6.Font = new System.Drawing.Font("Urdu Typesetting", 18F);
             this.bTnDesign6.ForeColor = System.Drawing.Color.White;
-            this.bTnDesign6.Location = new System.Drawing.Point(313, 65);
+            this.bTnDesign6.Location = new System.Drawing.Point(334, 65);
             this.bTnDesign6.Name = "bTnDesign6";
             this.bTnDesign6.Size = new System.Drawing.Size(300, 110);
             this.bTnDesign6.TabIndex = 29;
@@ -208,7 +208,7 @@ namespace Ticcket
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Urdu Typesetting", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(8, 17);
+            this.label1.Location = new System.Drawing.Point(25, 17);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(150, 50);
             this.label1.TabIndex = 28;
@@ -226,7 +226,7 @@ namespace Ticcket
             this.bTnDesign1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bTnDesign1.Font = new System.Drawing.Font("Urdu Typesetting", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bTnDesign1.ForeColor = System.Drawing.Color.White;
-            this.bTnDesign1.Location = new System.Drawing.Point(235, 304);
+            this.bTnDesign1.Location = new System.Drawing.Point(256, 304);
             this.bTnDesign1.Name = "bTnDesign1";
             this.bTnDesign1.Size = new System.Drawing.Size(135, 55);
             this.bTnDesign1.TabIndex = 37;
@@ -250,7 +250,7 @@ namespace Ticcket
             this.Controls.Add(this.bTnDesign6);
             this.Controls.Add(this.label1);
             this.Name = "organiser_Home";
-            this.Size = new System.Drawing.Size(616, 362);
+            this.Size = new System.Drawing.Size(643, 362);
             this.ResumeLayout(false);
             this.PerformLayout();
 

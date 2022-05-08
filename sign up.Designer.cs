@@ -132,8 +132,8 @@ namespace Ticcket
             // label4
             // 
             this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label4.Font = new System.Drawing.Font("Bahnschrift Condensed", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Blue;
+            this.label4.Font = new System.Drawing.Font("Bahnschrift Condensed", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label4.Location = new System.Drawing.Point(523, 321);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(61, 28);
@@ -261,10 +261,9 @@ namespace Ticcket
             this.TxtUserConfirmPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
             this.TxtUserConfirmPass.ForeColor = System.Drawing.Color.Black;
             this.TxtUserConfirmPass.Location = new System.Drawing.Point(217, 289);
-            this.TxtUserConfirmPass.Multiline = true;
             this.TxtUserConfirmPass.Name = "TxtUserConfirmPass";
             this.TxtUserConfirmPass.PasswordChar = '•';
-            this.TxtUserConfirmPass.Size = new System.Drawing.Size(300, 28);
+            this.TxtUserConfirmPass.Size = new System.Drawing.Size(300, 24);
             this.TxtUserConfirmPass.TabIndex = 214;
             this.TxtUserConfirmPass.TextChanged += new System.EventHandler(this.TxtUserConfirmPass_TextChanged_1);
             // 
@@ -274,10 +273,9 @@ namespace Ticcket
             this.TxtUserPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtUserPass.ForeColor = System.Drawing.Color.Black;
             this.TxtUserPass.Location = new System.Drawing.Point(217, 232);
-            this.TxtUserPass.Multiline = true;
             this.TxtUserPass.Name = "TxtUserPass";
             this.TxtUserPass.PasswordChar = '•';
-            this.TxtUserPass.Size = new System.Drawing.Size(300, 28);
+            this.TxtUserPass.Size = new System.Drawing.Size(300, 24);
             this.TxtUserPass.TabIndex = 212;
             // 
             // TxtUserEmail
@@ -399,7 +397,8 @@ namespace Ticcket
             this.bTnDesign6.BorderRadius = 37;
             this.bTnDesign6.BorderSize = 2;
             this.bTnDesign6.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bTnDesign6.FlatAppearance.BorderSize = 0;
+            this.bTnDesign6.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
+            this.bTnDesign6.FlatAppearance.BorderSize = 2;
             this.bTnDesign6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bTnDesign6.ForeColor = System.Drawing.Color.Black;
             this.bTnDesign6.Location = new System.Drawing.Point(203, 279);
@@ -417,7 +416,7 @@ namespace Ticcket
             this.bTnDesign7.BorderRadius = 37;
             this.bTnDesign7.BorderSize = 2;
             this.bTnDesign7.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bTnDesign7.FlatAppearance.BorderSize = 0;
+            this.bTnDesign7.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
             this.bTnDesign7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bTnDesign7.ForeColor = System.Drawing.Color.BlanchedAlmond;
             this.bTnDesign7.Location = new System.Drawing.Point(203, 109);
@@ -435,7 +434,6 @@ namespace Ticcket
             this.bTnDesign8.BorderRadius = 37;
             this.bTnDesign8.BorderSize = 2;
             this.bTnDesign8.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bTnDesign8.FlatAppearance.BorderSize = 0;
             this.bTnDesign8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bTnDesign8.ForeColor = System.Drawing.Color.Black;
             this.bTnDesign8.Location = new System.Drawing.Point(203, 166);
@@ -453,7 +451,6 @@ namespace Ticcket
             this.bTnDesign9.BorderRadius = 37;
             this.bTnDesign9.BorderSize = 2;
             this.bTnDesign9.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bTnDesign9.FlatAppearance.BorderSize = 0;
             this.bTnDesign9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bTnDesign9.ForeColor = System.Drawing.Color.Black;
             this.bTnDesign9.Location = new System.Drawing.Point(203, 222);
