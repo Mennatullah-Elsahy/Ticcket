@@ -22,6 +22,7 @@ namespace Ticcket
 
         private void button2_Click_1(object sender, EventArgs e)
         {
+            bool em = isvalid_email(TxtUserEmail.Text);
             if (TxtUserName.Text == string.Empty)
             {
                 TxtUserName.Focus();
@@ -42,13 +43,15 @@ namespace Ticcket
                 TxtUserConfirmPass.Focus();
                 errorConfirmPass.SetError(TxtUserConfirmPass, "Reqiired");
             }
-            if (TxtUserName.Text == "" && TxtUserEmail.Text == "" && TxtUserPass.Text == "" && TxtUserConfirmPass.Text=="")
+            if (em == false)
+                errorEmail.SetError(TxtUserEmail, "Email Format is incorrect");
+
+            if (TxtUserName.Text == "" && TxtUserEmail.Text == "" && TxtUserPass.Text == "" && TxtUserConfirmPass.Text == "")
             {
                 label1.Text = "❗️ Registration is empty, Please fill in all fields";
                 TxtUserName.Focus();
             }
-            
-            
+
             else if (TxtUserPass.Text != TxtUserConfirmPass.Text)
             {
                 label1.Text = "❗️ The password doesn't match, please Re-ente ";
@@ -74,17 +77,36 @@ namespace Ticcket
                 TxtUserConfirmPass.Focus();
                 errorConfirmPass.SetError(TxtUserConfirmPass, "Reqiired");
             }
+            else if (em == false)
+            {
+                TxtUserEmail.Focus();
+                errorEmail.SetError(TxtUserEmail, "Email Format is incorrect");
+            }
             else
             {
                 this.Hide();
                 organiser f = new organiser();
                 f.ShowDialog();
             }
-           
+            
+
         }
 
+        public bool isvalid_email(string email)
+        {
+            Regex check = new Regex(@"^\w+[\w-\.]+\@\w{S}\.[a-z]{2,3}$");
+            bool valid = false;
+            valid = check.IsMatch(email);
+            if (valid == true)
+                return true;
+            else
+            {
+                errorEmail.SetError(TxtUserEmail, "Email Format is incorrect");
+                return false;
+            }
+        }
 
-        private void sign_up_Load(object sender, EventArgs e)
+            private void sign_up_Load(object sender, EventArgs e)
         {
 
         }

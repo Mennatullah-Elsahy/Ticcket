@@ -64,9 +64,10 @@ namespace Ticcket
 
         private void Btndash_Click_2(object sender, EventArgs e)
         {
+            bool em = isvalid_email(Txtemail.Text);
             string Email = Txtemail.Text;
             string password = Txtpassword.Text;
-            if (Email == "Mennatullah@gmail.com" && password == "1234")
+            if (Email == "Mennatullah@gmail.com" && password == "1234" && em==true)
             {
 
                 this.Hide();
@@ -75,6 +76,7 @@ namespace Ticcket
 
 
             }
+            
             else if (Txtemail.Text == string.Empty && Txtpassword.Text == string.Empty)
             {
                 Txtemail.Focus();
@@ -97,6 +99,9 @@ namespace Ticcket
                 Txtpassword.Clear();
                 Txtemail.Focus();
             }
+            if (em == false)
+                errorProvider1.SetError(Txtemail, "Email Format is incorrect");
+
             if (Txtemail.Text == string.Empty)
             {
                 Txtemail.Focus();
@@ -107,8 +112,21 @@ namespace Ticcket
                 Txtpassword.Focus();
                 errorProvider2.SetError(Txtpassword, "Reqiired");
             }
+            
         }
-        
+        public bool isvalid_email(string email)
+        {
+            Regex check = new Regex(@"^\w+[\w-\.]+\@\w{S}\.[a-z]{2,3}$");
+            bool valid = false;
+            valid = check.IsMatch(email);
+            if (valid == true)
+                return true;
+            else
+            {
+                errorProvider1.SetError(Txtemail, "Email Format is incorrect");
+                return false;
+            }
+        }
         private void Btnsignup_Click_1(object sender, EventArgs e)
         {
             this.Hide();

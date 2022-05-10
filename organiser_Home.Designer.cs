@@ -130,7 +130,7 @@ namespace Ticcket
             this.bTnDesign4.BorderRadius = 40;
             this.bTnDesign4.BorderSize = 3;
             this.bTnDesign4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bTnDesign4.FlatAppearance.BorderSize = 0;
+            this.bTnDesign4.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateBlue;
             this.bTnDesign4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bTnDesign4.Font = new System.Drawing.Font("Urdu Typesetting", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bTnDesign4.ForeColor = System.Drawing.Color.White;
@@ -144,13 +144,13 @@ namespace Ticcket
             // 
             // bTnDesign10
             // 
-            this.bTnDesign10.BackColor = System.Drawing.Color.White;
+            this.bTnDesign10.BackColor = System.Drawing.Color.SlateBlue;
             this.bTnDesign10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bTnDesign10.BackgroundImage")));
             this.bTnDesign10.BorderColor = System.Drawing.Color.DarkSlateBlue;
             this.bTnDesign10.BorderRadius = 40;
             this.bTnDesign10.BorderSize = 3;
             this.bTnDesign10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bTnDesign10.FlatAppearance.BorderSize = 0;
+            this.bTnDesign10.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateBlue;
             this.bTnDesign10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bTnDesign10.Font = new System.Drawing.Font("Urdu Typesetting", 18F);
             this.bTnDesign10.ForeColor = System.Drawing.Color.White;
@@ -170,7 +170,7 @@ namespace Ticcket
             this.bTnDesign8.BorderRadius = 40;
             this.bTnDesign8.BorderSize = 3;
             this.bTnDesign8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bTnDesign8.FlatAppearance.BorderSize = 0;
+            this.bTnDesign8.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateBlue;
             this.bTnDesign8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bTnDesign8.Font = new System.Drawing.Font("Urdu Typesetting", 18F);
             this.bTnDesign8.ForeColor = System.Drawing.Color.White;
@@ -184,13 +184,13 @@ namespace Ticcket
             // 
             // bTnDesign6
             // 
-            this.bTnDesign6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.bTnDesign6.BackColor = System.Drawing.Color.SlateBlue;
             this.bTnDesign6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bTnDesign6.BackgroundImage")));
             this.bTnDesign6.BorderColor = System.Drawing.Color.DarkSlateBlue;
             this.bTnDesign6.BorderRadius = 40;
             this.bTnDesign6.BorderSize = 3;
             this.bTnDesign6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bTnDesign6.FlatAppearance.BorderSize = 0;
+            this.bTnDesign6.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateBlue;
             this.bTnDesign6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bTnDesign6.Font = new System.Drawing.Font("Urdu Typesetting", 18F);
             this.bTnDesign6.ForeColor = System.Drawing.Color.White;
@@ -208,7 +208,7 @@ namespace Ticcket
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Urdu Typesetting", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(25, 17);
+            this.label1.Location = new System.Drawing.Point(23, 16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(150, 50);
             this.label1.TabIndex = 28;
@@ -222,11 +222,12 @@ namespace Ticcket
             this.bTnDesign1.BorderRadius = 18;
             this.bTnDesign1.BorderSize = 3;
             this.bTnDesign1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bTnDesign1.FlatAppearance.BorderSize = 0;
+            this.bTnDesign1.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateBlue;
+            this.bTnDesign1.FlatAppearance.BorderSize = 2;
             this.bTnDesign1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bTnDesign1.Font = new System.Drawing.Font("Urdu Typesetting", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bTnDesign1.ForeColor = System.Drawing.Color.White;
-            this.bTnDesign1.Location = new System.Drawing.Point(256, 304);
+            this.bTnDesign1.Location = new System.Drawing.Point(258, 304);
             this.bTnDesign1.Name = "bTnDesign1";
             this.bTnDesign1.Size = new System.Drawing.Size(135, 55);
             this.bTnDesign1.TabIndex = 37;
