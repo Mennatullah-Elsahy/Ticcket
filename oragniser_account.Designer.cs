@@ -36,7 +36,6 @@ namespace Ticcket
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -44,6 +43,7 @@ namespace Ticcket
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.Picture = new System.Windows.Forms.Label();
             this.bTnDesign4 = new Ticcket.Resources.BTnDesign();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -109,24 +109,11 @@ namespace Ticcket
             this.label8.BackColor = System.Drawing.Color.White;
             this.label8.Font = new System.Drawing.Font("One Stroke Script LET", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label8.Location = new System.Drawing.Point(173, 204);
+            this.label8.Location = new System.Drawing.Point(174, 269);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(173, 41);
             this.label8.TabIndex = 16;
             this.label8.Text = "Mennatullah";
-            // 
-            // button5
-            // 
-            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(438, 242);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(43, 34);
-            this.button5.TabIndex = 14;
-            this.button5.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
@@ -135,9 +122,9 @@ namespace Ticcket
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(343, 208);
+            this.button4.Location = new System.Drawing.Point(359, 213);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(43, 34);
+            this.button4.Size = new System.Drawing.Size(32, 27);
             this.button4.TabIndex = 13;
             this.button4.UseVisualStyleBackColor = true;
             // 
@@ -210,16 +197,29 @@ namespace Ticcket
             this.bTnDesign4.UseVisualStyleBackColor = false;
             this.bTnDesign4.Click += new System.EventHandler(this.bTnDesign4_Click);
             // 
+            // button3
+            // 
+            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(448, 244);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(32, 27);
+            this.button3.TabIndex = 131;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // oragniser_account
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.bTnDesign4);
             this.Controls.Add(this.Picture);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -242,7 +242,6 @@ namespace Ticcket
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
@@ -250,5 +249,6 @@ namespace Ticcket
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Label Picture;
         private Resources.BTnDesign bTnDesign4;
+        private System.Windows.Forms.Button button3;
     }
 }
