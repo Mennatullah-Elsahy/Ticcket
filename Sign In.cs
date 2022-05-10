@@ -67,7 +67,7 @@ namespace Ticcket
             bool em = isvalid_email(Txtemail.Text);
             string Email = Txtemail.Text;
             string password = Txtpassword.Text;
-            if (Email == "Mennatullah@gmail.com" && password == "1234" && em==true)
+            if (Email == "Mennatullah@gmail.com" && password == "1234" && em == true)
             {
 
                 this.Hide();
@@ -116,7 +116,7 @@ namespace Ticcket
         }
         public bool isvalid_email(string email)
         {
-            Regex check = new Regex(@"^\w+[\w-\.]+\@\w{S}\.[a-z]{2,3}$");
+            Regex check = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
             bool valid = false;
             valid = check.IsMatch(email);
             if (valid == true)

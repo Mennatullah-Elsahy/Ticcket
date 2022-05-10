@@ -94,7 +94,7 @@ namespace Ticcket
 
         public bool isvalid_email(string email)
         {
-            Regex check = new Regex(@"^\w+[\w-\.]+\@\w{S}\.[a-z]{2,3}$");
+            Regex check = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
             bool valid = false;
             valid = check.IsMatch(email);
             if (valid == true)
