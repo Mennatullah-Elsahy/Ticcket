@@ -31,5 +31,12 @@ namespace Ticcket
                 Logo.Text = "❗️ Please Select another photo";
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            organiser_event s = new organiser_event();
+            s.BringToFront();
+        }
     }
 }

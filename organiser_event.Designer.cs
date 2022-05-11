@@ -30,40 +30,41 @@ namespace Ticcket
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(organiser_event));
-            this.Btnstart = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.Btnstart = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Btnstart
+            // button1
             // 
-            this.Btnstart.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btnstart.BackgroundImage")));
-            this.Btnstart.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Btnstart.FlatAppearance.BorderSize = 0;
-            this.Btnstart.Font = new System.Drawing.Font("Hacen Liner XL", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.Btnstart.ForeColor = System.Drawing.Color.White;
-            this.Btnstart.Location = new System.Drawing.Point(325, 54);
-            this.Btnstart.Name = "Btnstart";
-            this.Btnstart.Size = new System.Drawing.Size(183, 55);
-            this.Btnstart.TabIndex = 1;
-            this.Btnstart.Text = "Old Events";
-            this.Btnstart.UseVisualStyleBackColor = true;
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.Font = new System.Drawing.Font("Hacen Liner XL", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(73, 242);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(183, 55);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "+ Create Event";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // button4
             // 
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.Font = new System.Drawing.Font("Hacen Liner XL", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(73, 149);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(183, 55);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Organize Events";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.Font = new System.Drawing.Font("Hacen Liner XL", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(335, 211);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(183, 55);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "Tickets";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -79,33 +80,33 @@ namespace Ticcket
             this.button3.Text = "My Events";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // button2
             // 
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.Font = new System.Drawing.Font("Hacen Liner XL", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(325, 149);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(183, 55);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Tickets";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.Font = new System.Drawing.Font("Hacen Liner XL", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(73, 149);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(183, 55);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Organize Events";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // Btnstart
             // 
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.Font = new System.Drawing.Font("Hacen Liner XL", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(188, 242);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(183, 55);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "+ Create Event";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Btnstart.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btnstart.BackgroundImage")));
+            this.Btnstart.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Btnstart.FlatAppearance.BorderSize = 0;
+            this.Btnstart.Font = new System.Drawing.Font("Hacen Liner XL", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.Btnstart.ForeColor = System.Drawing.Color.White;
+            this.Btnstart.Location = new System.Drawing.Point(335, 87);
+            this.Btnstart.Name = "Btnstart";
+            this.Btnstart.Size = new System.Drawing.Size(183, 55);
+            this.Btnstart.TabIndex = 1;
+            this.Btnstart.Text = "Old Events";
+            this.Btnstart.UseVisualStyleBackColor = true;
             // 
             // organiser_event
             // 

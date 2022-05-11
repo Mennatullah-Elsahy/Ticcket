@@ -82,6 +82,7 @@ namespace Ticcket
             this.button2.TabIndex = 130;
             this.button2.Text = "✖️";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -222,12 +223,11 @@ namespace Ticcket
             this.Logo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Logo.Font = new System.Drawing.Font("Adobe Caslon Pro Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Logo.ForeColor = System.Drawing.Color.Black;
-            this.Logo.Location = new System.Drawing.Point(317, 278);
+            this.Logo.Location = new System.Drawing.Point(376, 278);
             this.Logo.Name = "Logo";
-            this.Logo.Size = new System.Drawing.Size(262, 22);
+            this.Logo.Size = new System.Drawing.Size(205, 22);
             this.Logo.TabIndex = 258;
-            this.Logo.Text = "                                                                                 " +
-    "   ";
+            this.Logo.Text = "                                                                 ";
             // 
             // button6
             // 

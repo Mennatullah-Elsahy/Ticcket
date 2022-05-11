@@ -15,5 +15,11 @@ namespace Ticcket
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Create_Event o = new Create_Event();
+            o.ShowDialog();
+        }
     }
 }

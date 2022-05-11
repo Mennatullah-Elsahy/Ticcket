@@ -75,5 +75,10 @@ namespace Ticcket
             PasswordChanging o = new PasswordChanging();
             o.ShowDialog();
         }
+
+        private void Btnstart_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Saved";
+        }
     }
 }
