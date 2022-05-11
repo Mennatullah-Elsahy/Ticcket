@@ -18,11 +18,18 @@ namespace Ticcket
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
+            oragniser_account s = new oragniser_account();
+            s.BringToFront();
 
         }
 
         private void PasswordChanging_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

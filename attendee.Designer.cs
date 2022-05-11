@@ -52,7 +52,7 @@ namespace Ticcket
             this.label8.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label8.Font = new System.Drawing.Font("Minion Pro", 11.25F, System.Drawing.FontStyle.Bold);
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label8.Location = new System.Drawing.Point(47, 209);
+            this.label8.Location = new System.Drawing.Point(54, 209);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(134, 21);
             this.label8.TabIndex = 166;
@@ -74,7 +74,7 @@ namespace Ticcket
             // 
             this.panel3.BackColor = System.Drawing.Color.Black;
             this.panel3.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.panel3.Location = new System.Drawing.Point(222, 112);
+            this.panel3.Location = new System.Drawing.Point(222, 113);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(254, 1);
             this.panel3.TabIndex = 159;
@@ -85,10 +85,9 @@ namespace Ticcket
             this.OldPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OldPass.ForeColor = System.Drawing.Color.Black;
             this.OldPass.Location = new System.Drawing.Point(222, 94);
-            this.OldPass.Multiline = true;
             this.OldPass.Name = "OldPass";
             this.OldPass.PasswordChar = '•';
-            this.OldPass.Size = new System.Drawing.Size(254, 34);
+            this.OldPass.Size = new System.Drawing.Size(254, 19);
             this.OldPass.TabIndex = 158;
             // 
             // label1
@@ -107,10 +106,11 @@ namespace Ticcket
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
             this.panel1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.panel1.Location = new System.Drawing.Point(222, 171);
+            this.panel1.Location = new System.Drawing.Point(222, 172);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(254, 1);
             this.panel1.TabIndex = 248;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // textBox1
             // 
@@ -118,17 +118,16 @@ namespace Ticcket
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.Black;
             this.textBox1.Location = new System.Drawing.Point(222, 153);
-            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.PasswordChar = '•';
-            this.textBox1.Size = new System.Drawing.Size(254, 34);
+            this.textBox1.Size = new System.Drawing.Size(254, 19);
             this.textBox1.TabIndex = 247;
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Black;
             this.panel4.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.panel4.Location = new System.Drawing.Point(222, 226);
+            this.panel4.Location = new System.Drawing.Point(222, 227);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(254, 1);
             this.panel4.TabIndex = 250;
@@ -139,10 +138,9 @@ namespace Ticcket
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.Black;
             this.textBox2.Location = new System.Drawing.Point(222, 208);
-            this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '•';
-            this.textBox2.Size = new System.Drawing.Size(254, 34);
+            this.textBox2.Size = new System.Drawing.Size(254, 19);
             this.textBox2.TabIndex = 249;
             // 
             // panel2
@@ -169,7 +167,7 @@ namespace Ticcket
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(569, 2);
+            this.button2.Location = new System.Drawing.Point(574, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(39, 35);
             this.button2.TabIndex = 130;

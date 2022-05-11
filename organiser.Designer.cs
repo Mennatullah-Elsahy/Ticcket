@@ -41,10 +41,10 @@ namespace Ticcket
             this.Sidepanel = new System.Windows.Forms.Panel();
             this.Btnsearch = new System.Windows.Forms.Button();
             this.Btnhome = new System.Windows.Forms.Button();
-            this.oragniser_account1 = new Ticcket.oragniser_account();
-            this.organiser_search1 = new Ticcket.organiser_search();
-            this.organiser_event1 = new Ticcket.organiser_event();
             this.organiser_Home1 = new Ticcket.organiser_Home();
+            this.organiser_event1 = new Ticcket.organiser_event();
+            this.organiser_search1 = new Ticcket.organiser_search();
+            this.oragniser_account1 = new Ticcket.oragniser_account();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -177,7 +177,7 @@ namespace Ticcket
             // Sidepanel
             // 
             this.Sidepanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.Sidepanel.Location = new System.Drawing.Point(3, 52);
+            this.Sidepanel.Location = new System.Drawing.Point(0, 52);
             this.Sidepanel.Name = "Sidepanel";
             this.Sidepanel.Size = new System.Drawing.Size(10, 50);
             this.Sidepanel.TabIndex = 2;
@@ -217,21 +217,13 @@ namespace Ticcket
             this.Btnhome.UseVisualStyleBackColor = false;
             this.Btnhome.Click += new System.EventHandler(this.Btnhome_Click_1);
             // 
-            // oragniser_account1
+            // organiser_Home1
             // 
-            this.oragniser_account1.BackColor = System.Drawing.Color.White;
-            this.oragniser_account1.Location = new System.Drawing.Point(139, 87);
-            this.oragniser_account1.Name = "oragniser_account1";
-            this.oragniser_account1.Size = new System.Drawing.Size(661, 370);
-            this.oragniser_account1.TabIndex = 2;
-            // 
-            // organiser_search1
-            // 
-            this.organiser_search1.BackColor = System.Drawing.Color.White;
-            this.organiser_search1.Location = new System.Drawing.Point(139, 87);
-            this.organiser_search1.Name = "organiser_search1";
-            this.organiser_search1.Size = new System.Drawing.Size(661, 370);
-            this.organiser_search1.TabIndex = 3;
+            this.organiser_Home1.BackColor = System.Drawing.Color.White;
+            this.organiser_Home1.Location = new System.Drawing.Point(139, 87);
+            this.organiser_Home1.Name = "organiser_Home1";
+            this.organiser_Home1.Size = new System.Drawing.Size(661, 370);
+            this.organiser_Home1.TabIndex = 5;
             // 
             // organiser_event1
             // 
@@ -243,13 +235,21 @@ namespace Ticcket
             this.organiser_event1.Size = new System.Drawing.Size(661, 370);
             this.organiser_event1.TabIndex = 4;
             // 
-            // organiser_Home1
+            // organiser_search1
             // 
-            this.organiser_Home1.BackColor = System.Drawing.Color.White;
-            this.organiser_Home1.Location = new System.Drawing.Point(139, 87);
-            this.organiser_Home1.Name = "organiser_Home1";
-            this.organiser_Home1.Size = new System.Drawing.Size(661, 370);
-            this.organiser_Home1.TabIndex = 5;
+            this.organiser_search1.BackColor = System.Drawing.Color.White;
+            this.organiser_search1.Location = new System.Drawing.Point(139, 87);
+            this.organiser_search1.Name = "organiser_search1";
+            this.organiser_search1.Size = new System.Drawing.Size(661, 370);
+            this.organiser_search1.TabIndex = 3;
+            // 
+            // oragniser_account1
+            // 
+            this.oragniser_account1.BackColor = System.Drawing.Color.White;
+            this.oragniser_account1.Location = new System.Drawing.Point(139, 87);
+            this.oragniser_account1.Name = "oragniser_account1";
+            this.oragniser_account1.Size = new System.Drawing.Size(661, 370);
+            this.oragniser_account1.TabIndex = 2;
             // 
             // organiser
             // 

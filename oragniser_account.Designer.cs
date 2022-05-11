@@ -44,6 +44,7 @@ namespace Ticcket
             this.Picture = new System.Windows.Forms.Label();
             this.bTnDesign4 = new Ticcket.Resources.BTnDesign();
             this.button3 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -109,7 +110,7 @@ namespace Ticcket
             this.label8.BackColor = System.Drawing.Color.White;
             this.label8.Font = new System.Drawing.Font("One Stroke Script LET", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label8.Location = new System.Drawing.Point(174, 269);
+            this.label8.Location = new System.Drawing.Point(172, 204);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(173, 41);
             this.label8.TabIndex = 16;
@@ -204,17 +205,28 @@ namespace Ticcket
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(448, 244);
+            this.button3.Location = new System.Drawing.Point(453, 244);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(32, 27);
             this.button3.TabIndex = 131;
             this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(232, 323);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(126, 23);
+            this.button5.TabIndex = 132;
+            this.button5.Text = "Change Pass";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // oragniser_account
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.bTnDesign4);
             this.Controls.Add(this.Picture);
@@ -250,5 +262,6 @@ namespace Ticcket
         private System.Windows.Forms.Label Picture;
         private Resources.BTnDesign bTnDesign4;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button5;
     }
 }
