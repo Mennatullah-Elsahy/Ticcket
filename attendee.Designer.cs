@@ -36,13 +36,18 @@ namespace Ticcket
             this.OldPass = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.NewPass = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.ConfirmPass = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.bTnDesign3 = new Ticcket.Resources.BTnDesign();
+            this.Btnstart = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.checkBoxShowPass1 = new System.Windows.Forms.CheckBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -112,16 +117,16 @@ namespace Ticcket
             this.panel1.TabIndex = 248;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // textBox1
+            // NewPass
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(222, 153);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PasswordChar = '•';
-            this.textBox1.Size = new System.Drawing.Size(254, 19);
-            this.textBox1.TabIndex = 247;
+            this.NewPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.NewPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NewPass.ForeColor = System.Drawing.Color.Black;
+            this.NewPass.Location = new System.Drawing.Point(222, 153);
+            this.NewPass.Name = "NewPass";
+            this.NewPass.PasswordChar = '•';
+            this.NewPass.Size = new System.Drawing.Size(254, 19);
+            this.NewPass.TabIndex = 247;
             // 
             // panel4
             // 
@@ -132,21 +137,22 @@ namespace Ticcket
             this.panel4.Size = new System.Drawing.Size(254, 1);
             this.panel4.TabIndex = 250;
             // 
-            // textBox2
+            // ConfirmPass
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.Black;
-            this.textBox2.Location = new System.Drawing.Point(222, 208);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '•';
-            this.textBox2.Size = new System.Drawing.Size(254, 19);
-            this.textBox2.TabIndex = 249;
+            this.ConfirmPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ConfirmPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ConfirmPass.ForeColor = System.Drawing.Color.Black;
+            this.ConfirmPass.Location = new System.Drawing.Point(222, 208);
+            this.ConfirmPass.Name = "ConfirmPass";
+            this.ConfirmPass.PasswordChar = '•';
+            this.ConfirmPass.Size = new System.Drawing.Size(254, 19);
+            this.ConfirmPass.TabIndex = 249;
             // 
             // panel2
             // 
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -215,16 +221,85 @@ namespace Ticcket
             this.bTnDesign3.TextColor = System.Drawing.Color.White;
             this.bTnDesign3.UseVisualStyleBackColor = false;
             // 
+            // Btnstart
+            // 
+            this.Btnstart.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btnstart.BackgroundImage")));
+            this.Btnstart.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Btnstart.FlatAppearance.BorderSize = 0;
+            this.Btnstart.Font = new System.Drawing.Font("Hacen Liner XL", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.Btnstart.ForeColor = System.Drawing.Color.White;
+            this.Btnstart.Location = new System.Drawing.Point(233, 308);
+            this.Btnstart.Name = "Btnstart";
+            this.Btnstart.Size = new System.Drawing.Size(183, 55);
+            this.Btnstart.TabIndex = 251;
+            this.Btnstart.Text = "Save";
+            this.Btnstart.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label3.Font = new System.Drawing.Font("Adobe Caslon Pro", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Maroon;
+            this.label3.Location = new System.Drawing.Point(112, 283);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(352, 22);
+            this.label3.TabIndex = 255;
+            this.label3.Text = "                                                                                 " +
+    "                                 ";
+            // 
+            // checkBoxShowPass1
+            // 
+            this.checkBoxShowPass1.AutoSize = true;
+            this.checkBoxShowPass1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.checkBoxShowPass1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBoxShowPass1.Location = new System.Drawing.Point(114, 258);
+            this.checkBoxShowPass1.Name = "checkBoxShowPass1";
+            this.checkBoxShowPass1.Size = new System.Drawing.Size(98, 17);
+            this.checkBoxShowPass1.TabIndex = 254;
+            this.checkBoxShowPass1.Text = "Show password";
+            this.checkBoxShowPass1.UseVisualStyleBackColor = true;
+            this.checkBoxShowPass1.CheckedChanged += new System.EventHandler(this.checkBoxShowPass1_CheckedChanged);
+            // 
+            // label4
+            // 
+            this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label4.Font = new System.Drawing.Font("Bahnschrift Condensed", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label4.Location = new System.Drawing.Point(424, 257);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(66, 25);
+            this.label4.TabIndex = 253;
+            this.label4.Text = "Clear all";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Blue;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label2.Font = new System.Drawing.Font("Hacen Liner XL", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(-62, -4);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(338, 50);
+            this.label2.TabIndex = 250;
+            this.label2.Text = "           Change Password";
+            // 
             // PasswordChanging
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(616, 362);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.checkBoxShowPass1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.Btnstart);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.ConfirmPass);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.NewPass);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label8);
@@ -236,6 +311,7 @@ namespace Ticcket
             this.Text = "attendee";
             this.Load += new System.EventHandler(this.PasswordChanging_Load);
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -253,8 +329,13 @@ namespace Ticcket
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox NewPass;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox ConfirmPass;
+        private System.Windows.Forms.Button Btnstart;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.CheckBox checkBoxShowPass1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label2;
     }
 }

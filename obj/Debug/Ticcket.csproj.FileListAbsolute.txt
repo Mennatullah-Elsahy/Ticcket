@@ -17,3 +17,4 @@ C:\Users\EveresT\Downloads\Ticcket\obj\Debug\Ticcket.Help.resources
 C:\Users\EveresT\Downloads\Ticcket\obj\Debug\Ticcket.PasswordChanging.resources
 C:\Users\EveresT\Downloads\Ticcket\obj\Debug\Ticcket.ChangePass.resources
 C:\Users\EveresT\Downloads\Ticcket\obj\Debug\Ticcket.csproj.AssemblyReference.cache
+C:\Users\EveresT\Downloads\Ticcket\obj\Debug\Ticcket.Create_Event.resources

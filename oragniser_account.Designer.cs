@@ -229,9 +229,9 @@ namespace Ticcket
             this.Btnstart.FlatAppearance.BorderSize = 0;
             this.Btnstart.Font = new System.Drawing.Font("Hacen Liner XL", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.Btnstart.ForeColor = System.Drawing.Color.White;
-            this.Btnstart.Location = new System.Drawing.Point(223, 312);
+            this.Btnstart.Location = new System.Drawing.Point(228, 319);
             this.Btnstart.Name = "Btnstart";
-            this.Btnstart.Size = new System.Drawing.Size(183, 55);
+            this.Btnstart.Size = new System.Drawing.Size(183, 45);
             this.Btnstart.TabIndex = 133;
             this.Btnstart.Text = "Save Changes";
             this.Btnstart.UseVisualStyleBackColor = true;

@@ -33,5 +33,29 @@ namespace Ticcket
         {
 
         }
+
+        private void checkBoxShowPass1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxShowPass1.Checked)
+            {
+                OldPass.PasswordChar = '\0';
+                NewPass.PasswordChar = '\0';
+                ConfirmPass.PasswordChar = '\0';
+            }
+            else
+            {
+                OldPass.PasswordChar = '•';
+                NewPass.PasswordChar = '\0';
+                ConfirmPass.PasswordChar = '\0';
+            }
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            OldPass.Clear();
+            NewPass.Clear();
+            ConfirmPass.Clear();
+            OldPass.Focus();
+        }
     }
 }
