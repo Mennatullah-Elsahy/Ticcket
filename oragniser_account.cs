@@ -67,6 +67,11 @@ namespace Ticcket
         private void button5_Click(object sender, EventArgs e)
         {
             
+            
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
             PasswordChanging o = new PasswordChanging();
             o.ShowDialog();
         }

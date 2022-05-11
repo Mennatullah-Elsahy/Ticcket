@@ -40,12 +40,12 @@ namespace Ticcket
             this.label3 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.Picture = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.bTnDesign4 = new Ticcket.Resources.BTnDesign();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
             this.Btnstart = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -155,16 +155,6 @@ namespace Ticcket
             this.Picture.TabIndex = 129;
             this.Picture.Text = "                                                         ";
             // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(181, 283);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(304, 23);
-            this.button5.TabIndex = 132;
-            this.button5.Text = "Change Pass";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
             // button3
             // 
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
@@ -229,20 +219,40 @@ namespace Ticcket
             this.Btnstart.FlatAppearance.BorderSize = 0;
             this.Btnstart.Font = new System.Drawing.Font("Hacen Liner XL", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.Btnstart.ForeColor = System.Drawing.Color.White;
-            this.Btnstart.Location = new System.Drawing.Point(228, 319);
+            this.Btnstart.Location = new System.Drawing.Point(232, 319);
             this.Btnstart.Name = "Btnstart";
             this.Btnstart.Size = new System.Drawing.Size(183, 45);
             this.Btnstart.TabIndex = 133;
             this.Btnstart.Text = "Save Changes";
             this.Btnstart.UseVisualStyleBackColor = true;
             // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.White;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.button6.FlatAppearance.BorderSize = 3;
+            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.Black;
+            this.button6.Location = new System.Drawing.Point(179, 282);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(304, 31);
+            this.button6.TabIndex = 142;
+            this.button6.Text = "Change Password";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
+            // 
             // oragniser_account
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.Btnstart);
-            this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.bTnDesign4);
             this.Controls.Add(this.Picture);
@@ -278,7 +288,7 @@ namespace Ticcket
         private System.Windows.Forms.Label Picture;
         private Resources.BTnDesign bTnDesign4;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button Btnstart;
+        private System.Windows.Forms.Button button6;
     }
 }

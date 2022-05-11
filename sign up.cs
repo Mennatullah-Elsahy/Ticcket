@@ -28,6 +28,8 @@ namespace Ticcket
                 TxtUserName.Focus();
                 errorName.SetError(TxtUserName, "Reqiired");
             }
+            if (em == false)
+                errorEmail.SetError(TxtUserEmail, "Email Format is incorrect");
             if (TxtUserEmail.Text == string.Empty)
             {
                 TxtUserEmail.Focus();
@@ -43,9 +45,7 @@ namespace Ticcket
                 TxtUserConfirmPass.Focus();
                 errorConfirmPass.SetError(TxtUserConfirmPass, "Reqiired");
             }
-            if (em == false)
-                errorEmail.SetError(TxtUserEmail, "Email Format is incorrect");
-
+            
             if (TxtUserName.Text == "" && TxtUserEmail.Text == "" && TxtUserPass.Text == "" && TxtUserConfirmPass.Text == "")
             {
                 label1.Text = "❗️ Registration is empty, Please fill in all fields";

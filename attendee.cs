@@ -57,5 +57,19 @@ namespace Ticcket
             ConfirmPass.Clear();
             OldPass.Focus();
         }
+
+        private void Btnstart_Click(object sender, EventArgs e)
+        {
+             if (NewPass != ConfirmPass)
+            {
+                label3.Text = "❗️ The password doesn't match, please Re-ente ";
+                NewPass.Focus();
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
