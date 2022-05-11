@@ -224,7 +224,7 @@ namespace Ticcket
             this.Logo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Logo.Font = new System.Drawing.Font("Adobe Caslon Pro Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Logo.ForeColor = System.Drawing.Color.Black;
-            this.Logo.Location = new System.Drawing.Point(373, 275);
+            this.Logo.Location = new System.Drawing.Point(371, 275);
             this.Logo.Name = "Logo";
             this.Logo.Size = new System.Drawing.Size(205, 22);
             this.Logo.TabIndex = 258;
@@ -255,7 +255,7 @@ namespace Ticcket
             this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label8.Font = new System.Drawing.Font("Adobe Caslon Pro Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(297, 300);
+            this.label8.Location = new System.Drawing.Point(297, 296);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(339, 32);
             this.label8.TabIndex = 260;
