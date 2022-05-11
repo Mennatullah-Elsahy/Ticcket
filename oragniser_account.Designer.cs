@@ -242,11 +242,11 @@ namespace Ticcket
             // 
             this.label4.AutoSize = true;
             this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label4.Font = new System.Drawing.Font("Adobe Caslon Pro Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Blue;
-            this.label4.Location = new System.Drawing.Point(428, 321);
+            this.label4.Font = new System.Drawing.Font("Adobe Caslon Pro Bold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(428, 322);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(175, 32);
+            this.label4.Size = new System.Drawing.Size(175, 36);
             this.label4.TabIndex = 143;
             this.label4.Text = "                                        ";
             // 

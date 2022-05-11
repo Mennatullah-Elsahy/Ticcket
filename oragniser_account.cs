@@ -78,7 +78,7 @@ namespace Ticcket
 
         private void Btnstart_Click(object sender, EventArgs e)
         {
-            label1.Text = "Saved";
+            label4.Text = "Saved";
         }
     }
 }

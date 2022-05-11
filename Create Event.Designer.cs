@@ -47,6 +47,7 @@ namespace Ticcket
             this.label7 = new System.Windows.Forms.Label();
             this.Logo = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -223,7 +224,7 @@ namespace Ticcket
             this.Logo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Logo.Font = new System.Drawing.Font("Adobe Caslon Pro Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Logo.ForeColor = System.Drawing.Color.Black;
-            this.Logo.Location = new System.Drawing.Point(376, 278);
+            this.Logo.Location = new System.Drawing.Point(373, 275);
             this.Logo.Name = "Logo";
             this.Logo.Size = new System.Drawing.Size(205, 22);
             this.Logo.TabIndex = 258;
@@ -248,12 +249,25 @@ namespace Ticcket
             this.button6.Text = "Create";
             this.button6.UseVisualStyleBackColor = false;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label8.Font = new System.Drawing.Font("Adobe Caslon Pro Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Black;
+            this.label8.Location = new System.Drawing.Point(297, 300);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(339, 32);
+            this.label8.TabIndex = 260;
+            this.label8.Text = "Event Created Successfully                           ";
+            // 
             // Create_Event
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(600, 323);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.Logo);
             this.Controls.Add(this.pictureBox1);
@@ -297,5 +311,6 @@ namespace Ticcket
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label Logo;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label8;
     }
 }
