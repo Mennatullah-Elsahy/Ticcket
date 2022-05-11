@@ -36,15 +36,16 @@ namespace Ticcket
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.Picture = new System.Windows.Forms.Label();
-            this.bTnDesign4 = new Ticcket.Resources.BTnDesign();
-            this.button3 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.bTnDesign4 = new Ticcket.Resources.BTnDesign();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.Btnstart = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -116,19 +117,6 @@ namespace Ticcket
             this.label8.TabIndex = 16;
             this.label8.Text = "Mennatullah";
             // 
-            // button4
-            // 
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(359, 213);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(32, 27);
-            this.button4.TabIndex = 13;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -151,17 +139,6 @@ namespace Ticcket
             this.label3.TabIndex = 10;
             this.label3.Text = "Mennatullah@gmail.com";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(166, -7);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(274, 177);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 20;
-            this.pictureBox1.TabStop = false;
-            // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
@@ -177,6 +154,29 @@ namespace Ticcket
             this.Picture.Size = new System.Drawing.Size(181, 22);
             this.Picture.TabIndex = 129;
             this.Picture.Text = "                                                         ";
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(181, 283);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(304, 23);
+            this.button5.TabIndex = 132;
+            this.button5.Text = "Change Pass";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(453, 244);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(32, 27);
+            this.button3.TabIndex = 131;
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // bTnDesign4
             // 
@@ -198,34 +198,50 @@ namespace Ticcket
             this.bTnDesign4.UseVisualStyleBackColor = false;
             this.bTnDesign4.Click += new System.EventHandler(this.bTnDesign4_Click);
             // 
-            // button3
+            // pictureBox1
             // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(453, 244);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(32, 27);
-            this.button3.TabIndex = 131;
-            this.button3.UseVisualStyleBackColor = true;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(166, -7);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(274, 177);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
             // 
-            // button5
+            // button4
             // 
-            this.button5.Location = new System.Drawing.Point(232, 323);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(126, 23);
-            this.button5.TabIndex = 132;
-            this.button5.Text = "Change Pass";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Location = new System.Drawing.Point(359, 213);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(32, 27);
+            this.button4.TabIndex = 13;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // Btnstart
+            // 
+            this.Btnstart.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btnstart.BackgroundImage")));
+            this.Btnstart.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Btnstart.FlatAppearance.BorderSize = 0;
+            this.Btnstart.Font = new System.Drawing.Font("Hacen Liner XL", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.Btnstart.ForeColor = System.Drawing.Color.White;
+            this.Btnstart.Location = new System.Drawing.Point(223, 312);
+            this.Btnstart.Name = "Btnstart";
+            this.Btnstart.Size = new System.Drawing.Size(183, 55);
+            this.Btnstart.TabIndex = 133;
+            this.Btnstart.Text = "Save Changes";
+            this.Btnstart.UseVisualStyleBackColor = true;
             // 
             // oragniser_account
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.Btnstart);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.bTnDesign4);
@@ -263,5 +279,6 @@ namespace Ticcket
         private Resources.BTnDesign bTnDesign4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button Btnstart;
     }
 }
