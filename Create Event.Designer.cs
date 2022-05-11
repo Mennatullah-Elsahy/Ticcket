@@ -42,7 +42,13 @@ namespace Ticcket
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.Logo = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -166,7 +172,7 @@ namespace Ticcket
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(392, 52);
+            this.label5.Location = new System.Drawing.Point(372, 52);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(48, 13);
             this.label5.TabIndex = 254;
@@ -175,11 +181,72 @@ namespace Ticcket
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(392, 126);
+            this.label6.Location = new System.Drawing.Point(372, 126);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(62, 13);
             this.label6.TabIndex = 255;
             this.label6.Text = "Event Logo";
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(373, 152);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(209, 117);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 256;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label7.Font = new System.Drawing.Font("Montserrat", 27.75F, System.Drawing.FontStyle.Bold);
+            this.label7.ForeColor = System.Drawing.Color.Blue;
+            this.label7.Location = new System.Drawing.Point(443, 112);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(42, 45);
+            this.label7.TabIndex = 257;
+            this.label7.Text = "+";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // Logo
+            // 
+            this.Logo.AutoSize = true;
+            this.Logo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Logo.Font = new System.Drawing.Font("Adobe Caslon Pro Bold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Logo.ForeColor = System.Drawing.Color.Black;
+            this.Logo.Location = new System.Drawing.Point(317, 278);
+            this.Logo.Name = "Logo";
+            this.Logo.Size = new System.Drawing.Size(262, 22);
+            this.Logo.TabIndex = 258;
+            this.Logo.Text = "                                                                                 " +
+    "   ";
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.White;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.button6.FlatAppearance.BorderSize = 3;
+            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SteelBlue;
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.Black;
+            this.button6.Location = new System.Drawing.Point(134, 286);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(160, 35);
+            this.button6.TabIndex = 259;
+            this.button6.Text = "Create";
+            this.button6.UseVisualStyleBackColor = false;
             // 
             // Create_Event
             // 
@@ -187,6 +254,10 @@ namespace Ticcket
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(600, 323);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.Logo);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -201,6 +272,7 @@ namespace Ticcket
             this.Text = "Create_Event";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -220,5 +292,10 @@ namespace Ticcket
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label Logo;
+        private System.Windows.Forms.Button button6;
     }
 }

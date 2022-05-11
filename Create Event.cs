@@ -15,5 +15,21 @@ namespace Ticcket
         {
             InitializeComponent();
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OpenFileDialog openFileDialog = new OpenFileDialog();
+                openFileDialog.Title = "icon";
+                openFileDialog.Filter = "icon(*.png;*.jpeg;*.Gif;)|*.png;*.jpeg;*.Gif;";
+                openFileDialog.ShowDialog();
+                pictureBox1.Image = new Bitmap(openFileDialog.FileName);
+            }
+            catch
+            {
+                Logo.Text = "❗️ Please Select another photo";
+            }
+        }
     }
 }
