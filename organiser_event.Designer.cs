@@ -37,6 +37,7 @@ namespace Ticcket
             this.Btnstart = new System.Windows.Forms.Button();
             this.bTnDesign1 = new Ticcket.Resources.BTnDesign();
             this.bTnDesign2 = new Ticcket.Resources.BTnDesign();
+            this.bTnDesign3 = new Ticcket.Resources.BTnDesign();
             this.SuspendLayout();
             // 
             // button1
@@ -61,7 +62,7 @@ namespace Ticcket
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.Font = new System.Drawing.Font("Hacen Liner XL", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(335, 50);
+            this.button4.Location = new System.Drawing.Point(345, 30);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(183, 55);
             this.button4.TabIndex = 4;
@@ -103,7 +104,7 @@ namespace Ticcket
             this.Btnstart.FlatAppearance.BorderSize = 0;
             this.Btnstart.Font = new System.Drawing.Font("Hacen Liner XL", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.Btnstart.ForeColor = System.Drawing.Color.White;
-            this.Btnstart.Location = new System.Drawing.Point(73, 209);
+            this.Btnstart.Location = new System.Drawing.Point(73, 200);
             this.Btnstart.Name = "Btnstart";
             this.Btnstart.Size = new System.Drawing.Size(183, 55);
             this.Btnstart.TabIndex = 1;
@@ -122,7 +123,7 @@ namespace Ticcket
             this.bTnDesign1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bTnDesign1.Font = new System.Drawing.Font("Hacen Liner XL", 18F);
             this.bTnDesign1.ForeColor = System.Drawing.Color.White;
-            this.bTnDesign1.Location = new System.Drawing.Point(335, 268);
+            this.bTnDesign1.Location = new System.Drawing.Point(335, 291);
             this.bTnDesign1.Name = "bTnDesign1";
             this.bTnDesign1.Size = new System.Drawing.Size(213, 55);
             this.bTnDesign1.TabIndex = 6;
@@ -142,7 +143,7 @@ namespace Ticcket
             this.bTnDesign2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bTnDesign2.Font = new System.Drawing.Font("Hacen Liner XL", 18F);
             this.bTnDesign2.ForeColor = System.Drawing.Color.White;
-            this.bTnDesign2.Location = new System.Drawing.Point(73, 270);
+            this.bTnDesign2.Location = new System.Drawing.Point(335, 230);
             this.bTnDesign2.Name = "bTnDesign2";
             this.bTnDesign2.Size = new System.Drawing.Size(213, 55);
             this.bTnDesign2.TabIndex = 7;
@@ -150,11 +151,32 @@ namespace Ticcket
             this.bTnDesign2.TextColor = System.Drawing.Color.White;
             this.bTnDesign2.UseVisualStyleBackColor = false;
             // 
+            // bTnDesign3
+            // 
+            this.bTnDesign3.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.bTnDesign3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bTnDesign3.BackgroundImage")));
+            this.bTnDesign3.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.bTnDesign3.BorderRadius = 40;
+            this.bTnDesign3.BorderSize = 0;
+            this.bTnDesign3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bTnDesign3.FlatAppearance.BorderSize = 0;
+            this.bTnDesign3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bTnDesign3.Font = new System.Drawing.Font("Hacen Liner XL", 18F);
+            this.bTnDesign3.ForeColor = System.Drawing.Color.White;
+            this.bTnDesign3.Location = new System.Drawing.Point(54, 291);
+            this.bTnDesign3.Name = "bTnDesign3";
+            this.bTnDesign3.Size = new System.Drawing.Size(213, 55);
+            this.bTnDesign3.TabIndex = 8;
+            this.bTnDesign3.Text = "My Events";
+            this.bTnDesign3.TextColor = System.Drawing.Color.White;
+            this.bTnDesign3.UseVisualStyleBackColor = false;
+            // 
             // organiser_event
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(21F, 39F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.bTnDesign3);
             this.Controls.Add(this.bTnDesign2);
             this.Controls.Add(this.bTnDesign1);
             this.Controls.Add(this.button1);
@@ -179,5 +201,6 @@ namespace Ticcket
         private System.Windows.Forms.Button button1;
         private Resources.BTnDesign bTnDesign1;
         private Resources.BTnDesign bTnDesign2;
+        private Resources.BTnDesign bTnDesign3;
     }
 }
